@@ -9,8 +9,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    private EditText result;
-    private EditText newNumber;
+    private TextView result;
+    private TextView newNumber;
     private TextView displayOperation;
 
     private Double operand1 = null;
@@ -28,30 +28,30 @@ public class MainActivity extends AppCompatActivity {
         newNumber = findViewById(R.id.newNumber);
         displayOperation = findViewById(R.id.operation);
 
-        Button button0 = findViewById(R.id.button0);
-        Button button1 = findViewById(R.id.button1);
-        Button button2 = findViewById(R.id.button2);
-        Button button3 = findViewById(R.id.button3);
-        Button button4 = findViewById(R.id.button4);
-        Button button5 = findViewById(R.id.button5);
-        Button button6 = findViewById(R.id.button6);
-        Button button7 = findViewById(R.id.button7);
-        Button button8 = findViewById(R.id.button8);
-        Button button9 = findViewById(R.id.button9);
-        Button buttonDot = findViewById(R.id.buttonDot);
+        TextView button0 = findViewById(R.id.button0);
+        TextView button1 = findViewById(R.id.button1);
+        TextView button2 = findViewById(R.id.button2);
+        TextView button3 = findViewById(R.id.button3);
+        TextView button4 = findViewById(R.id.button4);
+        TextView button5 = findViewById(R.id.button5);
+        TextView button6 = findViewById(R.id.button6);
+        TextView button7 = findViewById(R.id.button7);
+        TextView button8 = findViewById(R.id.button8);
+        TextView button9 = findViewById(R.id.button9);
+        TextView buttonDot = findViewById(R.id.buttonDot);
 
-        Button buttonEquals = findViewById(R.id.buttonEquals);
-        Button buttonDivide = findViewById(R.id.buttonDivide);
-        Button buttonMultiply = findViewById(R.id.buttonMultiply);
-        Button buttonMinus = findViewById(R.id.buttonMinus);
-        Button buttonPlus = findViewById(R.id.buttonPlus);
-        Button buttonNeg = findViewById(R.id.buttonNeg);
-        Button buttonClear = findViewById(R.id.buttonClear);
+        TextView buttonEquals = findViewById(R.id.buttonEquals);
+        TextView buttonDivide = findViewById(R.id.buttonDivide);
+        TextView buttonMultiply = findViewById(R.id.buttonMultiply);
+        TextView buttonMinus = findViewById(R.id.buttonMinus);
+        TextView buttonPlus = findViewById(R.id.buttonPlus);
+        TextView buttonNeg = findViewById(R.id.buttonNeg);
+        TextView buttonClear = findViewById(R.id.buttonClear);
 
         View.OnClickListener listener = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Button b = (Button) v;
+                TextView b = (TextView) v;
                 newNumber.append(b.getText().toString());
             }
         };
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         View.OnClickListener opListener = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Button b = (Button) v;
+                TextView b = (TextView) v;
                 String op = b.getText().toString();
                 String value = newNumber.getText().toString();
 

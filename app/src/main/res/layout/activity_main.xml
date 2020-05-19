@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#5C9EDC39"
+    android:background="@color/colorBackground"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -20,46 +20,50 @@
             android:id="@+id/button0"
             android:layout_width="48dp"
             android:layout_height="match_parent"
+            android:layout_margin="1dp"
             android:layout_weight="1"
+            android:background="@color/colorButton"
+            android:fontFamily="@font/covid"
             android:gravity="center"
-            android:background="#B98BC34A"
             android:text="0"
-            tools:layout_editor_absoluteX="64dp"
-            tools:layout_editor_absoluteY="539dp" />
+            android:textSize="40sp" />
 
         <TextView
             android:id="@+id/buttonDot"
             android:layout_width="48dp"
             android:layout_height="match_parent"
+            android:layout_margin="1dp"
             android:layout_weight="1"
+            android:background="@color/colorButton"
+            android:fontFamily="@font/covid"
             android:gravity="center"
-            android:background="#8BC34A"
             android:text="."
-            tools:layout_editor_absoluteX="120dp"
-            tools:layout_editor_absoluteY="539dp" />
+            android:textSize="40sp" />
 
         <TextView
             android:id="@+id/buttonEquals"
             android:layout_width="48dp"
             android:layout_height="match_parent"
-            android:gravity="center"
+            android:layout_margin="1dp"
             android:layout_weight="1"
-            android:background="#B98BC34A"
+            android:background="@color/colorButton"
+            android:fontFamily="@font/covid"
+            android:gravity="center"
             android:text="="
-            tools:layout_editor_absoluteX="176dp"
-            tools:layout_editor_absoluteY="539dp" />
+            android:textSize="40sp" />
 
         <TextView
             android:id="@+id/buttonPlus"
             android:layout_width="48dp"
             android:layout_height="match_parent"
+            android:layout_margin="1dp"
             android:layout_weight="1"
-            android:gravity="center"
             android:width="48dp"
-            android:background="#8BC34A"
+            android:background="@color/colorButton"
+            android:fontFamily="@font/covid"
+            android:gravity="center"
             android:text="+"
-            tools:layout_editor_absoluteX="232dp"
-            tools:layout_editor_absoluteY="539dp" />
+            android:textSize="40sp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -75,43 +79,49 @@
             android:id="@+id/button1"
             android:layout_width="48dp"
             android:layout_height="match_parent"
+            android:layout_margin="1dp"
             android:layout_weight="1"
+            android:background="@color/colorButton"
+            android:fontFamily="@font/covid"
             android:gravity="center"
-            android:background="#8BC34A"
             android:text="1"
-            tools:layout_editor_absoluteX="64dp"
-            tools:layout_editor_absoluteY="483dp" />
+            android:textSize="40sp" />
 
         <TextView
             android:id="@+id/button2"
             android:layout_width="48dp"
             android:layout_height="match_parent"
-            android:gravity="center"
+            android:layout_margin="1dp"
             android:layout_weight="1"
-            android:background="#B98BC34A"
+            android:background="@color/colorButton"
+            android:fontFamily="@font/covid"
+            android:gravity="center"
             android:text="2"
-            tools:layout_editor_absoluteX="120dp"
-            tools:layout_editor_absoluteY="483dp" />
+            android:textSize="40sp"/>
 
         <TextView
             android:id="@+id/button3"
             android:layout_width="48dp"
             android:layout_height="match_parent"
+            android:layout_margin="1dp"
             android:layout_weight="1"
+            android:background="@color/colorButton"
+            android:fontFamily="@font/covid"
             android:gravity="center"
-            android:background="#8BC34A"
             android:text="3"
-            tools:layout_editor_absoluteX="176dp"
-            tools:layout_editor_absoluteY="483dp" />
+            android:textSize="40sp"/>
 
         <TextView
             android:id="@+id/buttonMinus"
             android:layout_width="48dp"
             android:layout_height="match_parent"
-            android:gravity="center"
+            android:layout_margin="1dp"
             android:layout_weight="1"
-            android:background="#B98BC34A"
-            android:text="-" />
+            android:background="@color/colorButton"
+            android:fontFamily="@font/covid"
+            android:gravity="center"
+            android:text="-"
+            android:textSize="40sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -127,43 +137,49 @@
             android:id="@+id/button4"
             android:layout_width="48dp"
             android:layout_height="match_parent"
+            android:layout_margin="1dp"
             android:layout_weight="1"
+            android:background="@color/colorButton"
+            android:fontFamily="@font/covid"
             android:gravity="center"
-            android:background="#B98BC34A"
             android:text="4"
-            tools:layout_editor_absoluteX="64dp"
-            tools:layout_editor_absoluteY="427dp" />
+            android:textSize="40sp"/>
 
         <TextView
             android:id="@+id/button5"
             android:layout_width="48dp"
             android:layout_height="match_parent"
-            android:gravity="center"
+            android:layout_margin="1dp"
             android:layout_weight="1"
-            android:background="#8BC34A"
+            android:background="@color/colorButton"
+            android:fontFamily="@font/covid"
+            android:gravity="center"
             android:text="5"
-            tools:layout_editor_absoluteX="120dp"
-            tools:layout_editor_absoluteY="427dp" />
+            android:textSize="40sp"/>
 
         <TextView
             android:id="@+id/button6"
             android:layout_width="48dp"
             android:layout_height="match_parent"
+            android:layout_margin="1dp"
             android:layout_weight="1"
+            android:background="@color/colorButton"
+            android:fontFamily="@font/covid"
             android:gravity="center"
-            android:background="#B98BC34A"
             android:text="6"
-            tools:layout_editor_absoluteX="176dp"
-            tools:layout_editor_absoluteY="427dp" />
+            android:textSize="40sp"/>
 
         <TextView
             android:id="@+id/buttonMultiply"
             android:layout_width="48dp"
-            android:gravity="center"
             android:layout_height="match_parent"
+            android:layout_margin="1dp"
             android:layout_weight="1"
-            android:background="#8BC34A"
-            android:text="*" />
+            android:background="@color/colorButton"
+            android:fontFamily="@font/covid"
+            android:gravity="center"
+            android:text="*"
+            android:textSize="40sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -179,40 +195,51 @@
             android:id="@+id/button7"
             android:layout_width="48dp"
             android:layout_height="match_parent"
-            android:gravity="center"
+            android:layout_margin="1dp"
             android:layout_weight="1"
-            android:background="#8BC34A"
+            android:background="@color/colorButton"
+            android:elevation="1dp"
+            android:fontFamily="@font/covid"
+            android:gravity="center"
             android:text="7"
-            tools:layout_editor_absoluteY="371dp" />
+            android:textSize="40sp"
+            />
 
         <TextView
             android:id="@+id/button8"
             android:layout_width="48dp"
             android:layout_height="match_parent"
-            android:gravity="center"
+            android:layout_margin="1dp"
             android:layout_weight="1"
-            android:background="#B98BC34A"
+            android:background="@color/colorButton"
+            android:fontFamily="@font/covid"
+            android:gravity="center"
             android:text="8"
-            tools:layout_editor_absoluteY="371dp" />
+            android:textSize="40sp"/>
 
         <TextView
             android:id="@+id/button9"
             android:layout_width="48dp"
             android:layout_height="match_parent"
+            android:layout_margin="1dp"
             android:layout_weight="1"
+            android:background="@color/colorButton"
+            android:fontFamily="@font/covid"
             android:gravity="center"
-            android:background="#8BC34A"
             android:text="9"
-            tools:layout_editor_absoluteY="371dp" />
+            android:textSize="40sp" />
 
         <TextView
             android:id="@+id/buttonDivide"
             android:layout_width="48dp"
             android:layout_height="match_parent"
-            android:gravity="center"
+            android:layout_margin="1dp"
             android:layout_weight="1"
-            android:background="#B98BC34A"
-            android:text="/" />
+            android:background="@color/colorButton"
+            android:fontFamily="@font/covid"
+            android:gravity="center"
+            android:text="/"
+            android:textSize="40sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -225,58 +252,85 @@
         app:layout_constraintTop_toTopOf="@+id/guidelineTop">
 
         <TextView
+            android:id="@+id/buttonDelete"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@color/colorButton"
+            android:fontFamily="@font/covid"
+            android:gravity="center"
+            android:onClick="deleteButton"
+            android:text="del"
+            android:textSize="40sp" />
+
+        <TextView
             android:id="@+id/buttonClear"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:layout_margin="1dp"
+            android:layout_weight="2"
+            android:background="@color/colorButton"
+            android:fontFamily="@font/covid"
             android:gravity="center"
-            android:background="#C94CAF50"
-            android:text="Clear"
-            tools:layout_editor_absoluteX="288dp"
-            tools:layout_editor_absoluteY="450dp" />
+            android:text="C"
+            android:textSize="40sp" />
 
         <TextView
             android:id="@+id/buttonNeg"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:layout_margin="1dp"
+            android:layout_weight="2"
+            android:background="@color/colorButton"
+            android:fontFamily="@font/covid"
             android:gravity="center"
-            android:background="#4CAF50"
-            android:text="Neg" />
+            android:text="-1"
+            android:textSize="40sp" />
     </LinearLayout>
 
     <TextView
         android:id="@+id/result"
         android:layout_width="0dp"
-        android:layout_height="50dp"
+        android:layout_height="70dp"
         android:layout_marginTop="8dp"
-        android:ems="10"
+        android:layout_marginEnd="8dp"
+        android:background="@color/colorInput"
+        android:elevation="3dp"
         android:focusable="false"
         android:focusableInTouchMode="false"
-        android:inputType="numberSigned|numberDecimal"
+        android:fontFamily="@font/covid"
+        android:gravity="end"
+        android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/newNumber"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/newNumber"
         android:layout_width="0dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="8dp"
-        android:ems="10"
-        android:inputType="numberSigned|numberDecimal"
+        android:layout_height="70dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/colorInput"
+        android:elevation="3dp"
+        android:fontFamily="@font/covid"
+        android:gravity="end"
+        android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/operation"
         app:layout_constraintTop_toBottomOf="@+id/result" />
 
     <TextView
         android:id="@+id/operation"
-        android:layout_width="40dp"
+        android:layout_width="50dp"
         android:layout_height="50dp"
-        android:textSize="18sp"
+        android:fontFamily="@font/covid"
+        android:gravity="center"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="@+id/newNumber"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/newNumber" />
+        app:layout_constraintTop_toTopOf="@+id/result" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guidelineTop"

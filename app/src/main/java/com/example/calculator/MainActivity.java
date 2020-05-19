@@ -47,6 +47,8 @@ public class MainActivity extends AppCompatActivity {
         TextView buttonPlus = findViewById(R.id.buttonPlus);
         TextView buttonNeg = findViewById(R.id.buttonNeg);
         TextView buttonClear = findViewById(R.id.buttonClear);
+        TextView buttonDelete = findViewById(R.id.buttonDelete);
+
 
         View.OnClickListener listener = new View.OnClickListener() {
             @Override
@@ -74,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
                 String op = b.getText().toString();
                 String value = newNumber.getText().toString();
 
-                if (op.equals("Neg")) {
+                if (op.equals("-1")) {
                     if (value.length() != 0) {
                         Double number = Double.valueOf(value);
                         number *= -1;
@@ -114,6 +116,14 @@ public class MainActivity extends AppCompatActivity {
         };
         buttonClear.setOnClickListener(clearListener);
 
+    }
+
+    public void deleteButton(View view) {
+        if(newNumber.getText() != null) {
+            try{newNumber.setText(newNumber.getText().toString().substring(0, newNumber.length() - 1));
+            }catch (Exception e){
+            }
+        }
     }
 
     @Override
@@ -175,4 +185,5 @@ public class MainActivity extends AppCompatActivity {
         result.setText(operand1.toString());
         newNumber.setText("");
     }
+
 }

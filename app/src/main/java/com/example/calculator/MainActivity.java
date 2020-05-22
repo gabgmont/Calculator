@@ -47,8 +47,6 @@ public class MainActivity extends AppCompatActivity {
         TextView buttonPlus = findViewById(R.id.buttonPlus);
         TextView buttonNeg = findViewById(R.id.buttonNeg);
         TextView buttonClear = findViewById(R.id.buttonClear);
-        TextView buttonDelete = findViewById(R.id.buttonDelete);
-
 
         View.OnClickListener listener = new View.OnClickListener() {
             @Override
